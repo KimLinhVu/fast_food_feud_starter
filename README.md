@@ -10,7 +10,6 @@ They've sourced their nutrition data, bootstrapped a React application, and even
 
 Follow the instructions available on the [course portal](https://courses.codepath.org/courses/summer_internship_for_tech_excellence/unit/2#!lab1)
 
-
 ## Setting up the lab
 
 Make sure to install the proper dependencies.
