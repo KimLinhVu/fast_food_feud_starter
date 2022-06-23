@@ -41,7 +41,7 @@ export function App() {
   var instructions = appInfo.instructions.start
   
   var currentMenuItems = [];
-  if (isStringEmpty(categ) && isStringEmtpy(res)) {
+  if (!isStringEmpty(categ) && isStringEmtpy(res)) {
     instructions = appInfo.instructions.onlyCategory
   }
   if (isStringEmtpy(res) && isStringEmtpy(categ)){
