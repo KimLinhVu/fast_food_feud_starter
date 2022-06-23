@@ -44,7 +44,7 @@ export function App() {
   if (!isStringEmpty(categ) && isStringEmtpy(res)) {
     instructions = appInfo.instructions.onlyCategory
   }
-  if (isStringEmtpy(res) && isStringEmtpy(categ)){
+  if (isStringEmtpy(res) && isStringEmtpy(categ)) {
     instructions = appInfo.instructions.onlyRestaurant
   }
   if (isStringEmtpy(categ) && isStringEmtpy(res)){
